@@ -1,40 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
-
-html{
-    font-family: 'Quicksand', sans-serif;
-    font-size: 65%;
-    line-height: 65%;
-    background-color: #FFFEFF;
-}
-
-.header{
-    max-width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px 5vw;
-}
-
-.header .nav{
-    flex: 1;
-}
-
-.header .menu{
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.header .menu-itens a{
-    padding: 10px;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1.8rem;
-    line-height: 2.25rem;
-    color: #4D638A;
-    transition: 400ms;
-}
-
-.header .menu-itens a:hover{
-    color: #FFFEFF;
-    background-color: #4D638A;
-}
+@import url('reset.css');
+@import url('main.css');
+@import url('header.css');
+@import url('banner.css');

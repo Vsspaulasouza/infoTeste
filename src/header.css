@@ -1,0 +1,32 @@
+.header{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5vw;
+}
+
+.header .nav{
+    flex: 1;
+}
+
+.header .menu{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header .menu-itens a{
+    padding: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: 2.25rem;
+    color: #4D638A;
+    border-radius: 20px;
+    transition: 400ms;
+}
+
+.header .menu-itens a:hover{
+    color: #FFFEFF;
+    background-image: linear-gradient(210deg, #6585bf 0, #4d628a 50%, #364159 100%);
+}
