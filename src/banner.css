@@ -6,8 +6,13 @@
     padding: 50px 5vw;
 }
 
+#banner1{
+    padding-top: 170px;
+}
+
 .banner .banner-img{
     max-width: 500px;
+    border-radius: 15px;
 }
 
 .banner .banner-text{
@@ -29,7 +34,7 @@
 }
 
 .banner .banner-text p{
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     font-size: 2rem;
     line-height: 2.5rem;
     color: #313e57;
@@ -43,7 +48,7 @@
     line-height: 2.25rem;
     color: #FFFEFF;
     border-radius: 20px;
-    transition: transform 400ms ease;
+    transition: 400ms;
     background-image: linear-gradient(210deg, #475e88 0, #313e57 50%, #1c202a 100%);
 }
 
@@ -53,6 +58,6 @@
 }
 
 .banner .banner-text a:hover{
-    color: brown;
-    transform: scale(1.5);
+    background-image: linear-gradient(210deg, #727069 0, #313e57 50%, #001344 100%);
+    box-shadow: 0 3px 10px 0 rgba(60,64,67,0.3),0 2px 6px 2px rgba(60,64,67,0.15);
 }

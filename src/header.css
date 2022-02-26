@@ -1,9 +1,11 @@
 .header{
-    max-width: 100%;
+    position: fixed;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 5vw;
+    padding: 0 5vw;
+    background-color: #FFFEFF;
 }
 
 .header .nav{
@@ -29,4 +31,9 @@
 .header .menu-itens a:hover{
     color: #FFFEFF;
     background-image: linear-gradient(210deg, #6585bf 0, #4d628a 50%, #364159 100%);
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,0.3),0 2px 6px 2px rgba(60,64,67,0.15);
+}
+
+.shadow{
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,0.3),0 2px 6px 2px rgba(60,64,67,0.15);
 }
