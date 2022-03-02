@@ -1,0 +1,52 @@
+.info{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 5vw;
+    margin-top: 30px;
+}
+
+.info h2{
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 2.7rem;
+    color: #313F57;
+}
+
+.info p{
+    margin-top: 30px;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    color: #313e57;
+    text-align: justify;
+}
+
+.info p + p {
+    margin-top: 20px;
+}
+
+.info h3{
+    font-weight: 600;
+    font-size: 2.3rem;
+    line-height: 2.5rem;
+    color: #313F57;
+    margin-top: 40px;
+}
+
+.info ol li::before {
+    content: counter(li);
+    font-weight: 600;
+    display: inline-block; width: 1em;
+}
+
+.info ol li{
+    counter-increment: li;
+    margin-top: 20px;
+    font-size: 1.9rem;
+    line-height: 2.3rem;
+    color: #313e57;
+}
+
+.info ol li + li{
+    margin-top: 15px;
+}

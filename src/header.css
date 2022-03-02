@@ -18,14 +18,8 @@
 }
 
 .header .menu-itens a{
-    padding: 15px;
-    text-decoration: none;
     font-weight: bold;
-    font-size: 1.8rem;
-    line-height: 2.25rem;
     color: #4D638A;
-    border-radius: 20px;
-    transition: 400ms;
 }
 
 .header .menu-itens a:hover{

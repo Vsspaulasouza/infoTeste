@@ -5,3 +5,32 @@ html{
     line-height: 65%;
     background-color: #FFFEFF;
 }
+
+.button{
+    padding: 15px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 2.25rem;
+    border-radius: 20px;
+    transition: 400ms;
+}
+
+* {
+    scrollbar-width: auto;
+    scrollbar-color: #4d638aa4 #FFFEFF;
+}
+
+*::-webkit-scrollbar {
+    width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #FFFEFF;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #4d638aa4;
+    border-radius: 10px;
+    border: 2px solid #FFFEFF;
+}

@@ -41,14 +41,7 @@
 }
 
 .banner .banner-text a{
-    padding: 15px;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 1.8rem;
-    line-height: 2.25rem;
     color: #FFFEFF;
-    border-radius: 20px;
-    transition: 400ms;
     background-image: linear-gradient(210deg, #475e88 0, #313e57 50%, #1c202a 100%);
 }
 
