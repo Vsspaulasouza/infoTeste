@@ -4,50 +4,43 @@
     justify-content: space-between;
     align-items: center;
     padding: 50px 5vw;
-    margin-right: 20px;
-    text-align: light;
-     
 }
 
 #banner1{
     padding-top: 170px;
-    text-align: light;
 }
 
 .banner .banner-img{
     max-width: 500px;
-  
+    border-radius: 15px;
 }
 
+.banner .banner-text{
+    flex: 1;
+    max-width: 600px;
+    margin-right: 20px;
+}
 
-.banner-text h1 {
+.banner .banner-text h1{
     font-weight: 600;
     font-size: 2.5rem;
     line-height: 2.7rem;
     color: #313F57;
     margin-bottom: 30px;
-    text-align: justify;
 }
 
-.banner .banner-text h1 {
-    font-weight: 600;
-    font-size: 2.5rem;
-    line-height: 2.7rem;
-    color: #313F57;
-}
-
-.banner .banner-text h1 h2 span{
+.banner .banner-text h1 span{
     font-weight: 700;
 }
 
-.banner .banner-text p {
+.banner .banner-text p{
     margin-bottom: 40px;
     font-size: 2rem;
     line-height: 2.5rem;
     color: #313e57;
 }
 
-.banner .banner-text a {
+.banner .banner-text a{
     padding: 15px;
     text-decoration: none;
     font-weight: 600;
@@ -59,7 +52,7 @@
     background-image: linear-gradient(210deg, #475e88 0, #313e57 50%, #1c202a 100%);
 }
 
-.banner .banner-text a span {
+.banner .banner-text a span{
     font-weight: 700;
     font-size: 2.5rem;
 }
@@ -67,39 +60,4 @@
 .banner .banner-text a:hover{
     background-image: linear-gradient(210deg, #727069 0, #313e57 50%, #001344 100%);
     box-shadow: 0 3px 10px 0 rgba(60,64,67,0.3),0 2px 6px 2px rgba(60,64,67,0.15);
-}
-
-ol{
-    list-style-type: decimal;
-    
-    font-size: 2rem;
-    line-height: 2.5rem;
-    color: #313e57;
-}
-
-ul{
-    list-style-type: none;
-    margin-bottom: 40px;
-    font-size: 2rem;
-    line-height: 2.5rem;
-    color: #313e57;
-}
-
-
-h2 {
-    font-weight: 600;
-    font-size: 6rem;
-    line-height: 2.7rem;
-    color: #313F57;
-    margin-bottom: 30px;
-}
-
-b{
-    font-weight: 600;
-    font-size: 2.5rem;
-    line-height: 2.7rem;
-    color: #313F57;
-    margin-bottom: 30px;
-    text-align: justify;
-
 }
