@@ -1,0 +1,60 @@
+.recomendacoes{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 5vw;
+}
+
+.recomendacoes .text-recomendacoes{
+    display: flex;
+    flex-direction: column;
+}
+
+.recomendacoes .text-recomendacoes .title{
+    font-weight: 600;
+}
+
+.recomendacoes .text-recomendacoes .text{
+    margin-top: 30px;
+    text-align: justify;
+}
+
+.recomendacoes .dados{
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-between;
+}
+
+.dados .form{
+    display: flex;
+    flex-direction: column;
+}
+
+.dados .form .label{
+    font-weight: 500;
+}
+
+.dados .form .select+.label{
+    margin-top: 20px;
+}
+
+.dados .form .select{
+    padding: 5px;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid #100b0044;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px 0 rgba(60,64,67,0.15);
+    background-color: #FFFEFF;
+    outline: none;
+    transition: 400ms;
+}
+
+.dados .form .select:hover,.select:focus,.select:active{
+    border-color: #4D638A;
+    box-shadow: 0 1px 7px 0 rgba(60,64,67,0.15);
+}
+
+.dados .form .label+.select{
+    margin-top: 5px;
+}
