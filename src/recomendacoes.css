@@ -2,7 +2,7 @@
     max-width: 100%;
     display: flex;
     flex-direction: column;
-    padding: 50px 5vw;
+    padding: 50px 5vw 100px 5vw;
 }
 
 .recomendacoes .text-recomendacoes{
@@ -26,6 +26,7 @@
 }
 
 .dados .form{
+    width: 40%;
     display: flex;
     flex-direction: column;
 }
@@ -57,4 +58,34 @@
 
 .dados .form .label+.select{
     margin-top: 5px;
+}
+
+.dados .container-recomendacoes{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #100b0044;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px 0 rgba(60,64,67,0.15);
+    padding: 5px 15px 5px 5px;
+}
+
+.dados .container-recomendacoes .title-rec{
+    margin: 15px 10px;
+    font-weight: 500;
+}
+
+.dados .container-recomendacoes .rec{
+    list-style-type: circle;
+    margin-left: 30px;
+}
+
+.dados .container-recomendacoes .rec .text-rec{
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+    text-align: justify;
+}
+
+.dados .container-recomendacoes .rec li+li{
+    margin-top: 10px;
 }
