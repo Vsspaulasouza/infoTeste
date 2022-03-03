@@ -16,6 +16,18 @@ html{
     transition: 400ms;
 }
 
+.title{
+    font-size: 2.5rem;
+    line-height: 2.7rem;
+    color: #313F57;
+}
+
+.text{
+    font-size: 2rem;
+    line-height: 2.5rem;
+    color: #313e57;
+}
+
 * {
     scrollbar-width: auto;
     scrollbar-color: #4d638aa4 #FFFEFF;

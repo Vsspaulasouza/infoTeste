@@ -16,8 +16,8 @@ function debounce(func, wait, immediate) {
 }
 
 function handleScroll() {
-  if (window.scrollY === 0) header.classList.remove("shadow");
-  else header.classList.add("shadow");
+  if (window.scrollY === 0) header.classList.remove("shadow-active");
+  else header.classList.add("shadow-active");
 }
 
 window.addEventListener("scroll", debounce(handleScroll, 20));

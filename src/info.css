@@ -6,18 +6,12 @@
     margin-top: 30px;
 }
 
-.info h2{
+.info .title{
     font-weight: 700;
-    font-size: 2.5rem;
-    line-height: 2.7rem;
-    color: #313F57;
 }
 
-.info p{
+.info .text{
     margin-top: 30px;
-    font-size: 2rem;
-    line-height: 2.5rem;
-    color: #313e57;
     text-align: justify;
 }
 
@@ -25,28 +19,26 @@
     margin-top: 20px;
 }
 
-.info h3{
+.info .title{
     font-weight: 600;
     font-size: 2.3rem;
     line-height: 2.5rem;
-    color: #313F57;
     margin-top: 40px;
 }
 
-.info ol li::before {
+.info .list .text::before {
     content: counter(li);
     font-weight: 600;
     display: inline-block; width: 1em;
 }
 
-.info ol li{
+.info .list .text{
     counter-increment: li;
     margin-top: 20px;
     font-size: 1.9rem;
     line-height: 2.3rem;
-    color: #313e57;
 }
 
-.info ol li + li{
+.info .list li + li{
     margin-top: 15px;
 }
